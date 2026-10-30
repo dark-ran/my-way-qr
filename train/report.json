@@ -1,21 +1,21 @@
 {
- "train": 1991,
- "val": 398,
+ "train": 2441,
+ "val": 488,
  "test": 240,
- "micro_f1": 0.756,
- "macro_f1": 0.748,
- "float_micro_f1": 0.756,
- "exact": 0.629,
- "at_least_one_right": 0.688,
+ "micro_f1": 0.8,
+ "macro_f1": 0.798,
+ "float_micro_f1": 0.796,
+ "exact": 0.654,
+ "at_least_one_right": 0.708,
  "per_label": {
-  "big_text": 0.565,
-  "plain_words": 0.871,
-  "high_contrast": 0.704,
-  "voice_guide": 0.783,
-  "voice_input": 0.652,
-  "big_touch": 0.724,
-  "one_step": 0.745,
-  "low_reach": 0.893,
-  "more_time": 0.792
+  "big_text": 0.652,
+  "plain_words": 0.9,
+  "high_contrast": 0.828,
+  "voice_guide": 0.831,
+  "voice_input": 0.824,
+  "big_touch": 0.828,
+  "one_step": 0.727,
+  "low_reach": 0.863,
+  "more_time": 0.727
  }
 }

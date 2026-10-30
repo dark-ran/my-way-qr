@@ -1,5 +1,5 @@
 const NAMES={big_text:"글씨 크게",plain_words:"쉬운 말로",high_contrast:"또렷한 색",voice_guide:"소리로 읽어 주기",voice_input:"말로 고르기",big_touch:"버튼 크게",one_step:"하나씩 천천히",low_reach:"손 닿는 아래쪽으로",more_time:"시간 넉넉히"};
-const SAMPLES=["글씨가 너무 작아서 안 보이고 영어 메뉴는 도통 모르겠어","휠체어라 위쪽 버튼에 손이 안 닿아요","손이 떨려서 자꾸 다른 걸 눌러요","종류가 너무 많고 금방 넘어가서 어지러워요","앞이 잘 안 보여서 읽어 줬으면 해"];
+const SAMPLES=["글씨가 너무 작아서 안 보이고 영어 메뉴는 도통 모르겠어","뒷사람 눈치 보여서 그냥 나왔어","휠체어라 위쪽 버튼에 손이 안 닿아요","손이 떨려서 자꾸 다른 걸 눌러요","종류가 너무 많고 금방 넘어가서 어지러워요","앞이 잘 안 보여서 읽어 줬으면 해"];
 const $=id=>document.getElementById(id);const K=$("kiosk");
 let profile=null,cur="cafe",left=0,timer=null,cart=[];
 function drawQR(){const code=MyWay.encode(profile);const url=location.origin+location.pathname+"#p="+code;
@@ -7,7 +7,8 @@ function drawQR(){const code=MyWay.encode(profile);const url=location.origin+loc
  g.fillStyle="#fff";g.fillRect(0,0,c.width,c.height);g.fillStyle="#000";const o=Math.floor((c.width-s*n)/2);
  for(let y=0;y<n;y++)for(let x=0;x<n;x++)if(q.isDark(y,x))g.fillRect(o+x*s,o+y*s,s,s);
  location.replace("#p="+code);$("scan").disabled=$("cam").disabled=false;$("status").textContent="QR 대기를 누르거나 카메라에 QR을 비춰 보세요."}
-function renderChips(pred){$("chips").innerHTML="";[...MyWay.LABELS].sort((x,y)=>profile[y]-profile[x]||(pred?pred[y].p-pred[x].p:0)).forEach(k=>{
+function renderChips(pred){$("chips").innerHTML="";const order=[...MyWay.LABELS].sort((x,y)=>profile[y]-profile[x]||(pred?pred[y].p-pred[x].p:0)),rest=order.findIndex(k=>!profile[k]);
+ order.forEach((k,i)=>{if(i===rest){const h=document.createElement("p");h.className="ask";h.textContent=rest?"혹시 이것도 필요하세요?":"잘 모르겠어요. 필요한 것을 눌러 주세요.";$("chips").append(h)}
  const b=document.createElement("button");b.type="button";b.className="chip";b.setAttribute("aria-pressed",profile[k]);
  const hint=pred?[...new Set(pred[k].why.filter(w=>w.length>1))]:[];const why=profile[k]&&hint.length?`단서: ${hint.join(", ")}`:"";
  b.innerHTML=`<span class="m">${NAMES[k]}</span><span>${pred?Math.round(pred[k].p*100)+"%":""}</span><small>${why}</small>`;

@@ -1,8 +1,8 @@
 {
  "n": 60,
- "micro_f1": 0.521,
- "one_right": 0.517,
- "all_in_candidates": 0.583,
+ "micro_f1": 0.605,
+ "one_right": 0.567,
+ "all_in_candidates": 0.617,
  "fixed_big_contrast_covers": 0.083,
  "fixed_4_covers": 0.25,
  "need_more_than_big_contrast": 55,
@@ -12,7 +12,7 @@
    7
   ],
   "plain_words": [
-   0.625,
+   0.571,
    5
   ],
   "high_contrast": [
@@ -28,20 +28,23 @@
    0
   ],
   "big_touch": [
-   0.833,
+   0.909,
    6
   ],
   "one_step": [
-   0.357,
+   0.6,
    18
   ],
   "low_reach": [
-   0.5,
+   0.667,
    5
   ],
   "more_time": [
-   0.545,
+   0.609,
    16
   ]
- }
+ },
+ "ask3_f1": 0.806,
+ "ask3_all_found": 0.783,
+ "ask3_exact": 0.6
 }

@@ -1,30 +1,30 @@
 {
- "train": 1991,
- "val": 398,
+ "train": 2441,
+ "val": 488,
  "test": 240,
- "micro_f1": 0.75,
- "macro_f1": 0.752,
- "exact": 0.558,
+ "micro_f1": 0.736,
+ "macro_f1": 0.732,
+ "exact": 0.533,
  "per_label": {
   "big_text": 0.522,
-  "plain_words": 0.73,
-  "high_contrast": 0.812,
-  "voice_guide": 0.71,
-  "voice_input": 0.83,
-  "big_touch": 0.83,
-  "one_step": 0.619,
-  "low_reach": 0.881,
-  "more_time": 0.833
+  "plain_words": 0.742,
+  "high_contrast": 0.74,
+  "voice_guide": 0.667,
+  "voice_input": 0.754,
+  "big_touch": 0.786,
+  "one_step": 0.727,
+  "low_reach": 0.825,
+  "more_time": 0.828
  },
  "th": [
+  0.7,
   0.65,
   0.6,
+  0.65,
+  0.55,
   0.75,
-  0.8,
   0.75,
-  0.8,
-  0.7,
-  0.75,
-  0.6
+  0.65,
+  0.8
  ]
 }

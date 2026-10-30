@@ -25,7 +25,7 @@ def load(p):
         if l.strip():
             r=json.loads(l);d.setdefault(r["t"],r)
     return list(d.values())
-tr=load("train_raw.jsonl")+load("negatives.jsonl")+load("train_agent.jsonl");te=load("test_independent.jsonl")
+tr=load("train_raw.jsonl")+load("negatives.jsonl")+load("train_agent.jsonl")+load("train_narrative.jsonl");te=load("test_independent.jsonl")
 rng=np.random.default_rng(0);rng.shuffle(tr);nv=len(tr)//6;val,trn=tr[:nv],tr[nv:]
 Y=lambda rows:np.array([[k in r["y"] for k in LABELS] for r in rows],int)
 Xt,Xv,Xs=[embed([r["t"] for r in R]) for R in (trn,val,te)];Yt,Yv,Ys=Y(trn),Y(val),Y(te)
@@ -71,6 +71,16 @@ FIX=[LABELS.index("big_text"),LABELS.index("high_contrast")];FIX2=FIX+[LABELS.in
 fx=lambda ids:float(np.mean([not np.delete(y,ids).any() for y in Yr]))
 rep={"n":len(rq),"micro_f1":round(f1_score(Yr,Pq,average="micro"),3),"one_right":round(float(hit),3),"all_in_candidates":round(float(cov),3),"fixed_big_contrast_covers":round(fx(FIX),3),"fixed_4_covers":round(fx(FIX2),3),"need_more_than_big_contrast":int(sum(np.delete(y,FIX).any() for y in Yr)),
 "per_label":{k:[round(f1_score(Yr[:,i],Pq[:,i],zero_division=0),3),int(Yr[:,i].sum())] for i,k in enumerate(LABELS)}}
+# 되묻기 시뮬레이션: 켜지지 않은 설정 중 확률 상위 3개를 물었을 때 사람이 사실대로 답한다고 가정한다.
+def ask(pp,yy,th,k=3):
+    o=[]
+    for a,y in zip(pp,yy):
+        on=a>=th;rest=[i for i in np.argsort(-a) if not on[i]][:k];q=on.copy()
+        for i in rest:q[i]=bool(y[i])
+        o.append(q)
+    return np.array(o).astype(int)
+Qr=ask(pr,Yr,np.array(TF));rep["ask3_f1"]=round(f1_score(Yr,Qr,average="micro"),3);rep["ask3_all_found"]=round(float(np.mean([bool((q|~y.astype(bool)).all()) for q,y in zip(Qr.astype(bool),Yr)])),3)
+rep["ask3_exact"]=round(float((Qr==Yr).all(1).mean()),3)
 print(rep);json.dump(rep,open("report_real.json","w"),ensure_ascii=False,indent=1)
 # 실제 발언을 학습에 반영: 5겹 교차검증으로 쓰지 않은 겹만 평가하고, 최종 머리는 전체 발언을 넣어 다시 학습한다.
 from sklearn.model_selection import KFold

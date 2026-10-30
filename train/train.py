@@ -23,7 +23,7 @@ def load(p):
         seen.add(r['t']);out.append(r)
     return out
 def XY(rows): return np.stack([vec(r['t']) for r in rows]),np.array([[k in r['y'] for k in LABELS] for r in rows],int)
-train=load('train_raw.jsonl')+load('negatives.jsonl')+load('train_agent.jsonl'); test=load('test_independent.jsonl')
+train=load('train_raw.jsonl')+load('negatives.jsonl')+load('train_agent.jsonl')+load('train_narrative.jsonl'); test=load('test_independent.jsonl')
 random.seed(0);random.shuffle(train);nv=len(train)//6;val,tr=train[:nv],train[nv:]
 Xt,Yt=XY(tr);Xv,Yv=XY(val);Xs,Ys=XY(test)
 W=[];B=[];TH=[]
