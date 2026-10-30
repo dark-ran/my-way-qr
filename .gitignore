@@ -1,0 +1,3 @@
+docs/video/
+train/*.log
+train/__pycache__/

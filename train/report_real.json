@@ -1,0 +1,47 @@
+{
+ "n": 60,
+ "micro_f1": 0.521,
+ "one_right": 0.517,
+ "all_in_candidates": 0.583,
+ "fixed_big_contrast_covers": 0.083,
+ "fixed_4_covers": 0.25,
+ "need_more_than_big_contrast": 55,
+ "per_label": {
+  "big_text": [
+   0.833,
+   7
+  ],
+  "plain_words": [
+   0.625,
+   5
+  ],
+  "high_contrast": [
+   0.667,
+   1
+  ],
+  "voice_guide": [
+   0.267,
+   12
+  ],
+  "voice_input": [
+   0.0,
+   0
+  ],
+  "big_touch": [
+   0.833,
+   6
+  ],
+  "one_step": [
+   0.357,
+   18
+  ],
+  "low_reach": [
+   0.5,
+   5
+  ],
+  "more_time": [
+   0.545,
+   16
+  ]
+ }
+}

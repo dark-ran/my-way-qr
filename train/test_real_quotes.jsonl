@@ -1,0 +1,60 @@
+{"t": "손을 아무리 뻗어도 원하는 음료를 주문할 수 없어요.", "y": ["low_reach"], "src": "https://kyeonggi.com/article/20230612580179", "who": "30대 뇌병변장애인(휠체어)"}
+{"t": "손이 떨려서 클릭도 쉽게 안 되는데", "y": ["big_touch"], "src": "https://kyeonggi.com/article/20230612580179", "who": "30대 뇌병변장애인"}
+{"t": "글씨 크기도 작아서 원하는 메뉴를 주문하기 힘들다", "y": ["big_text"], "src": "https://kyeonggi.com/article/20230612580179", "who": "30대 뇌병변장애인"}
+{"t": "주변 손님들 눈치도 보여서 (키오스크)이용을 잘 안 하게 된다", "y": ["more_time"], "src": "https://kyeonggi.com/article/20230612580179", "who": "30대 뇌병변장애인"}
+{"t": "시각장애인들은 사용할 수가 없어요", "y": ["voice_guide"], "src": "https://www.kbmaeil.com/article/202302260355927", "who": "시각장애인 센터장"}
+{"t": "화면 하나 잘못 누르면 전혀 다른 화면으로 넘어가 당황스러울 때가 많다", "y": ["one_step"], "src": "https://www.ajunews.com/view/20190929131615222", "who": "77세 남성"}
+{"t": "작은 화면 속에서 번호표 뽑는 부분을 찾기가 쉽지 않다", "y": ["big_text", "one_step"], "src": "https://www.ajunews.com/view/20190929131615222", "who": "69세 남성"}
+{"t": "기계에서 어떤 걸 눌러야 할지 몰라 걱정된다", "y": ["one_step"], "src": "https://www.ajunews.com/view/20190929131615222", "who": "70세 여성"}
+{"t": "민폐 끼치기 싫어서 그랬다", "y": ["more_time"], "src": "https://www.mt.co.kr/society/2021/03/17/2021031608461569794", "who": "73세 할머니"}
+{"t": "키오스크 앞에만 서면 눈치가 보이고 덜컥 겁부터 나", "y": ["more_time", "one_step"], "src": "https://www.etoday.co.kr/news/view/2373554", "who": "74세 고령자"}
+{"t": "정할 건 많은데 뒤에 줄이 서 있으니 마음은 급해지고", "y": ["more_time", "one_step"], "src": "https://www.khan.co.kr/article/202210180600011/amp", "who": "80세 고령자"}
+{"t": "바쁠 땐 나 때문에 방해될까 미안해서 시도도 안 해요.", "y": ["more_time"], "src": "https://www.khan.co.kr/article/202210180600011/amp", "who": "80세 고령자"}
+{"t": "밖에서 보고 키오스크만 있으면 안 들어가요.", "y": ["one_step"], "src": "https://www.khan.co.kr/article/202210180600011/amp", "who": "80세 고령자"}
+{"t": "기계가 너무 복잡하고 글씨도 작다", "y": ["one_step", "big_text"], "src": "https://medigatenews.com/stand/26166", "who": "70대 고령자"}
+{"t": "영어로 표기돼 있는 걸 온전히 이해하긴 어려워", "y": ["plain_words"], "src": "https://kyeonggi.com/article/20221127580111", "who": "67세 여성"}
+{"t": "처음엔 무엇을 뜻하는지 몰라 주변에 물어봐야 했다", "y": ["plain_words"], "src": "https://kyeonggi.com/article/20221127580111", "who": "70세 여성"}
+{"t": "키오스크 앞에서 아무리 두들기고 애원해도 반응하지 않는다", "y": ["voice_guide"], "src": "https://www.segye.com/newsView/20211014515098", "who": "시각장애인 자립생활센터 소장"}
+{"t": "소리 없는 벽을 두드리는 것 같다", "y": ["voice_guide"], "src": "https://www.ytn.co.kr/_ln/0103_202110142320047106", "who": "시각장애인"}
+{"t": "선 구분이 아무리 확실하게 돼 있다 하더라도 안 보이니까.", "y": ["big_text"], "src": "https://www.accesson.kr/kosim/assets/pdf/45147/journal-41-3-331.pdf", "who": "저시력 시각장애인 대학생"}
+{"t": "버튼이 너무 작아서 오입력이 발생할 정도로 작았다", "y": ["big_touch"], "src": "https://www.accesson.kr/kosim/assets/pdf/45147/journal-41-3-331.pdf", "who": "저시력 시각장애인 대학생"}
+{"t": "버튼이 작아서 입력이 제대로 되지 않는 경우가 많았다", "y": ["big_touch"], "src": "https://www.accesson.kr/kosim/assets/pdf/45147/journal-41-3-331.pdf", "who": "저시력 시각장애인 대학생"}
+{"t": "키보드와 바탕이 같은 색이어서 찾기가 좀 힘들긴 했어요.", "y": ["high_contrast"], "src": "https://www.accesson.kr/kosim/assets/pdf/45147/journal-41-3-331.pdf", "who": "저시력 시각장애인 대학생"}
+{"t": "메뉴를 없애는 버튼이 작아 잘 찾지 못할 것 같았다.", "y": ["big_touch"], "src": "https://www.accesson.kr/kosim/assets/pdf/45147/journal-41-3-331.pdf", "who": "저시력 시각장애인 대학생"}
+{"t": "점자, 이어폰 단자 위치가 달라서 찾는 데만 시간이 엄청 걸린다", "y": ["voice_guide", "more_time"], "src": "https://www.beminor.com/news/articleView.html?idxno=28806", "who": "전맹 시각장애인"}
+{"t": "화면이 하단으로 이동하긴 했지만 여전히 높다", "y": ["low_reach"], "src": "https://www.beminor.com/news/articleView.html?idxno=28806", "who": "전동휠체어 이용자"}
+{"t": "화면 상단의 메뉴를 선택하기 어려웠다", "y": ["low_reach"], "src": "https://www.beminor.com/news/articleView.html?idxno=28806", "who": "전동휠체어 이용자"}
+{"t": "점원의 모든 일이 끝날 때까지 기다렸다가 이야기해야 한다", "y": ["more_time"], "src": "https://www.beminor.com/news/articleView.html?idxno=29257", "who": "지체장애인 소송 원고"}
+{"t": "메뉴를 고르는 당연한 시간적 여유조차 허락되지 않는 것", "y": ["more_time"], "src": "https://www.beminor.com/news/articleView.html?idxno=29257", "who": "시각장애인 소송 원고"}
+{"t": "글자 크기가 너무 작아서 메뉴 목록을 확인하기도 어렵고", "y": ["big_text"], "src": "https://www.beminor.com/news/articleView.html?idxno=24418", "who": "장애인 당사자"}
+{"t": "화면 터치 속도가 느려서 뒷사람들이 길게 줄을 서 있으면 당황하게 된다", "y": ["more_time", "big_touch"], "src": "https://v.daum.net/v/20250407060501507", "who": "고령자 영순씨"}
+{"t": "창피해서 누구한테 도와 달라고 말도 못했다", "y": ["more_time"], "src": "https://kyeonggi.com/article/20230816580256", "who": "81세 류씨"}
+{"t": "옆 사람 눈치를 보면서 더듬더듬 티켓을 샀던 기억이 아직도 남아있다", "y": ["more_time"], "src": "https://kyeonggi.com/article/20230816580256", "who": "81세 류씨"}
+{"t": "키오스크를 만나면 덜컥 겁부터 나서, 내 자신이 너무 답답했다", "y": ["one_step"], "src": "https://kyeonggi.com/article/20230816580256", "who": "84세 홍씨"}
+{"t": "키오스크 사용이 너무 어렵다", "y": ["one_step"], "src": "https://bizhankook.com/bk/article/24056", "who": "영화관을 찾은 이용자"}
+{"t": "키오스크를 자주 사용하는 편인데도 매번 복잡하고 어렵다", "y": ["one_step"], "src": "https://bizhankook.com/bk/article/24056", "who": "30대 이용자"}
+{"t": "손이 아예 저 위까지 닿지 않는다", "y": ["low_reach"], "src": "https://www.ablenews.co.kr/news/articleView.html?idxno=225708", "who": "병원 접수 키오스크 환자(칼럼 인용)"}
+{"t": "어디를 누르라는 건지 전혀 알 수 없었다", "y": ["voice_guide", "one_step"], "src": "https://www.ablenews.co.kr/news/articleView.html?idxno=225708", "who": "시각장애인(칼럼 인용)"}
+{"t": "사람 있는 곳으로 가서 주문하겠다", "y": ["one_step", "more_time"], "src": "https://www.ablenews.co.kr/news/articleView.html?idxno=225708", "who": "발달장애인(칼럼 인용)"}
+{"t": "평소에는 이용할 생각도 못 한다.", "y": ["voice_guide"], "src": "https://www.khan.co.kr/article/202207111614021", "who": "전맹 시각장애인 51세"}
+{"t": "사람이 많을 때에는 직원에게 부탁하기도 애매하다", "y": ["more_time"], "src": "https://www.khan.co.kr/article/202207111614021", "who": "시각장애인"}
+{"t": "대부분 노인들은 글자가 작고 사용하기 힘들어서 무인 주문기를 두려워한다", "y": ["big_text", "one_step"], "src": "https://www.hankookilbo.com/news/article/201901081666026133", "who": "74세 고령자"}
+{"t": "스마트폰 사용법을 배우려고 왔는데 영어 단어부터 외워야 한다", "y": ["plain_words"], "src": "https://www.hankookilbo.com/News/Read/A2021033015390004663", "who": "79세 고령자"}
+{"t": "기계 다루기가 무서워서 패스트푸드점엔 들어가질 않는다", "y": ["one_step"], "src": "https://www.hankookilbo.com/News/Read/A2021033015390004663", "who": "키오스크 수업 노인 수강생"}
+{"t": "수량을 입력하는 버튼이 작아 매번 애를 먹는다", "y": ["big_touch"], "src": "https://www.hankookilbo.com/News/Read/A2021033015390004663", "who": "키오스크 수업 노인 수강생"}
+{"t": "외국어로 많이 되어 있어 배워도 기억을 잘못함", "y": ["plain_words"], "src": "https://www.hankookilbo.com/News/Read/A2021033015390004663", "who": "노인 수강생(노트 필기)"}
+{"t": "밖에 나가면 죄다 키오스크라서 당황할 때가 많은데", "y": ["one_step"], "src": "https://www.hankookilbo.com/news/article/201911121798082732", "who": "67세 고령자"}
+{"t": "영어·중국어·일본어 옵션은 있는데 나는 손도 안 닿는다", "y": ["low_reach"], "src": "https://www.khan.co.kr/article/202602261747001", "who": "휠체어 이용 장애인단체 대표"}
+{"t": "글씨 자체가 작아서 어르신들이나 저시력 장애인에게는 안 보이는데", "y": ["big_text"], "src": "https://www.fnnews.com/news/202304051607089413", "who": "시각장애인연합회 사무총장"}
+{"t": "직접 화면을 보고 터치해야 하는 키오스크 주문은 그간 엄두도 못 내던 일", "y": ["voice_guide"], "src": "https://www.segye.com/newsView/20250218514867", "who": "시각장애인 강씨"}
+{"t": "‘더블 샷’이 무슨 말인지 전혀 몰랐어요.", "y": ["plain_words"], "src": "https://www.hankookilbo.com/News/Read/A2021033015390004663", "who": "키오스크 수업 노인 수강생"}
+{"t": "화면에 막 버튼이 수도 없이 많이 뜨니까 식은땀이 날 때가 많아요.", "y": ["one_step"], "src": "https://www.hankookilbo.com/News/Read/A2021033015390004663", "who": "71세 강씨"}
+{"t": "혼자 할 수 없을 것 같다.", "y": ["voice_guide"], "src": "https://www.khan.co.kr/article/202207111614021", "who": "28세 시각장애인"}
+{"t": "그 뒤로 사람들이 붐비지 않는 시간에만 가게 됐다", "y": ["more_time"], "src": "https://www.beminor.com/news/articleView.html?idxno=23625", "who": "시각장애인 김씨"}
+{"t": "어? 소리가 안 나와요.", "y": ["voice_guide"], "src": "https://www.ablenews.co.kr/news/articleView.html?idxno=94173", "who": "45세 중증 시각장애인"}
+{"t": "안내문 붙일 곳도 많은데, 왜 점자 위에 해놨죠?", "y": ["voice_guide"], "src": "https://www.ablenews.co.kr/news/articleView.html?idxno=94173", "who": "45세 중증 시각장애인"}
+{"t": "쓸 수가 없잖아요.", "y": ["voice_guide"], "src": "https://www.ablenews.co.kr/news/articleView.html?idxno=94173", "who": "45세 중증 시각장애인"}
+{"t": "키오스크 메뉴가 보이지 않아서 아무 데나 눌러서 주문하는 경우도 있어요.", "y": ["voice_guide"], "src": "https://www.segye.com/newsView/20201012520076", "who": "25세 중증 시각장애인"}
+{"t": "혼자서만 붙잡고 있을 수는 없다 보니까….", "y": ["more_time"], "src": "https://www.segye.com/newsView/20201012520076", "who": "25세 중증 시각장애인"}
+{"t": "혼동되면 더 못해요.", "y": ["one_step"], "src": "https://www.khan.co.kr/article/202210180600011/amp", "who": "80세 고령자"}
+{"t": "주문을 못하고 매장을 나온 적도 있죠.", "y": ["one_step", "more_time"], "src": "https://www.khan.co.kr/article/202210180600011/amp", "who": "80세 고령자"}

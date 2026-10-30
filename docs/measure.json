@@ -1,0 +1,61 @@
+{
+ "cafe": {
+  "before": {
+   "min_font_px": 10.8,
+   "min_contrast": 1.82,
+   "min_button_h": 31,
+   "hard_terms": 12,
+   "timeout_s": 30,
+   "visible_choices": 9
+  },
+  "after": {
+   "min_font_px": 20.7,
+   "min_contrast": 16.57,
+   "min_button_h": 92,
+   "hard_terms": 0,
+   "timeout_s": 90,
+   "visible_choices": 9
+  }
+ },
+ "civil": {
+  "before": {
+   "min_font_px": 10.8,
+   "min_contrast": 1.82,
+   "min_button_h": 31,
+   "hard_terms": 9,
+   "timeout_s": 30,
+   "visible_choices": 7
+  },
+  "after": {
+   "min_font_px": 20.7,
+   "min_contrast": 16.57,
+   "min_button_h": 92,
+   "hard_terms": 0,
+   "timeout_s": 90,
+   "visible_choices": 7
+  }
+ },
+ "hosp": {
+  "before": {
+   "min_font_px": 10.8,
+   "min_contrast": 1.82,
+   "min_button_h": 31,
+   "hard_terms": 7,
+   "timeout_s": 30,
+   "visible_choices": 6
+  },
+  "after": {
+   "min_font_px": 20.7,
+   "min_contrast": 16.57,
+   "min_button_h": 92,
+   "hard_terms": 0,
+   "timeout_s": 90,
+   "visible_choices": 6
+  }
+ },
+ "voice": {
+  "n": 23,
+  "ok": 23,
+  "miss": []
+ }
+}

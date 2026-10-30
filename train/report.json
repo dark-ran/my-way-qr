@@ -1,0 +1,21 @@
+{
+ "train": 1991,
+ "val": 398,
+ "test": 240,
+ "micro_f1": 0.756,
+ "macro_f1": 0.748,
+ "float_micro_f1": 0.756,
+ "exact": 0.629,
+ "at_least_one_right": 0.688,
+ "per_label": {
+  "big_text": 0.565,
+  "plain_words": 0.871,
+  "high_contrast": 0.704,
+  "voice_guide": 0.783,
+  "voice_input": 0.652,
+  "big_touch": 0.724,
+  "one_step": 0.745,
+  "low_reach": 0.893,
+  "more_time": 0.792
+ }
+}

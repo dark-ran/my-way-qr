@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>내 방식 QR</title><link rel="icon" href="data:,"><link rel="stylesheet" href="style.css"></head>
+<body>
+<header><h1>내 방식 QR</h1><p>한 번 말하면, 어느 키오스크든 내 방식으로 바뀝니다.</p></header>
+<main>
+<section id="make" aria-labelledby="h-make">
+ <h2 id="h-make"><span class="n">1</span> 내 불편을 말해 보세요</h2>
+ <label for="say">평소 키오스크를 쓸 때 뭐가 힘드세요?</label>
+ <textarea id="say" rows="3" placeholder="예) 글씨가 작고 영어 메뉴는 모르겠어요"></textarea>
+ <div class="row"><button id="mic" type="button">🎤 말하기</button><button id="go" type="button" class="primary">내 방식 만들기</button></div>
+ <div class="samples" id="samples"></div>
+ <p id="aistat" class="hint" aria-live="polite">소형 AI로 작동 중입니다.</p>
+ <div id="result" hidden>
+  <h3>AI가 이렇게 이해했어요</h3><p class="hint">틀렸으면 눌러서 고치세요.</p>
+  <div id="chips"></div>
+  <div class="qrbox"><canvas id="qr" width="264" height="264" role="img" aria-label="내 방식 QR 코드"></canvas>
+   <div><b>내 방식 QR</b><p class="hint">이름·전화번호 없이 설정값만 담겨 있어요. 분석도 이 기기 안에서만 합니다.</p><div class="row"><button id="print" type="button">🖨 QR 카드 인쇄</button></div></div></div>
+ </div>
+</section>
+<section id="try" aria-labelledby="h-try">
+ <h2 id="h-try"><span class="n">2</span> 키오스크에 대 보세요</h2>
+ <div class="tabs" id="tabs" role="tablist"></div>
+ <div class="row"><button id="scan" type="button" class="primary" disabled>QR 대기</button><button id="cam" type="button" disabled>📷 카메라로 읽기</button><button id="off" type="button">원래 화면</button></div>
+ <video id="video" playsinline muted hidden></video>
+ <p id="status" class="hint" aria-live="polite">먼저 내 방식 QR을 만들어 주세요.</p>
+ <div id="kiosk" class="kiosk" data-mw-time="1"></div>
+</section>
+</main>
+<footer>시연용 모의 키오스크입니다. 실제 결제·발급은 되지 않습니다. <a href="https://github.com/dark-ran/my-way-qr">소스</a></footer>
+<script src="vendor/qrcode.js"></script><script src="vendor/jsQR.js"></script>
+<script>window.MW_APP=1</script><script src="myway.js"></script><script src="model.js"></script><script src="kiosks.js"></script><script src="app.js"></script>
+</body></html>

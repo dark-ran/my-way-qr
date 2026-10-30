@@ -1,0 +1,8 @@
+{
+ "cv_micro_f1": 0.539,
+ "cv_one_right": 0.5,
+ "cv_all_in_candidates": 0.6,
+ "test240_after": 0.831,
+ "test240_all_in_cand": 0.924,
+ "test240_neg_false": 0.033
+}
